@@ -9,7 +9,7 @@
 body {
   color: #444;
   font-family: sans-serif;
-
+  width: 1200px;
   border-top: 10px solid #1098ad;
   position: relative;
 }
@@ -285,18 +285,17 @@ h1 {
 }
 
 nav {
-  float: left;
-  margin-left: 20px;
+  float: right;
 }
 
 .clear {
   clear: both;
 }
-.clearfix::after {
+/* .clearfix::after {
   clear: both;
   content: "";
   display: block;
-}
+} */
 
 article {
   float: left;
