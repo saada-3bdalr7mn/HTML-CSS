@@ -9,7 +9,7 @@
 body {
   color: #444;
   font-family: sans-serif;
-  width: 1200px;
+
   border-top: 10px solid #1098ad;
   position: relative;
 }
@@ -18,7 +18,7 @@ body {
   width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
-  margin: 0 auto;
+  margin: auto;
 }
 
 .main-header {
@@ -308,6 +308,9 @@ aside {
   width: 300px;
   /* article+aside=continre
   900+300=1200 */
+}
+.aside-box {
+  float: left;
 }
 
 footer {
